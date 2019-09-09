@@ -1,0 +1,32 @@
+{
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
+    "[javascriptreact]": {
+        "editor.formatOnSave": false
+    },
+    "[typescript]": {
+        "editor.formatOnSave": false
+    },
+    "[typescriptreact]": {
+        "editor.formatOnSave": false
+    },
+    "eslint.validate": [
+        { "language": "javascript", "autoFix": true },
+        {
+            "language": "typescript",
+            "autoFix": true
+        },
+        {
+            "language": "typescriptreact",
+            "autoFix": true
+        }
+    ],
+    "javascript.validate.enable": true,
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "files.associations": {
+        "*.md": "mdx"
+    },
+    "eslint.enable": true
+}

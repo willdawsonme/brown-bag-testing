@@ -17,14 +17,6 @@ module.exports = {
                 use: [{ loader: 'babel-loader', options: { cacheDirectory: true } }],
             },
             {
-                test: /\.md$/,
-                exclude: /node_modules/,
-                use: [
-                    { loader: 'babel-loader', options: { cacheDirectory: true } },
-                    '@mdx-js/loader',
-                ],
-            },
-            {
                 test: /\.(png|jpg|gif)$/,
                 exclude: /node_modules/,
                 use: ['url-loader'],

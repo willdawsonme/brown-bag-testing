@@ -13,7 +13,10 @@
         "editor.formatOnSave": false
     },
     "eslint.validate": [
-        { "language": "javascript", "autoFix": true },
+        {
+            "language": "javascript",
+            "autoFix": true
+        },
         {
             "language": "typescript",
             "autoFix": true
@@ -25,8 +28,5 @@
     ],
     "javascript.validate.enable": true,
     "typescript.tsdk": "node_modules/typescript/lib",
-    "files.associations": {
-        "*.md": "mdx"
-    },
     "eslint.enable": true
 }

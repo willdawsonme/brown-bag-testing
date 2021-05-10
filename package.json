@@ -15,7 +15,7 @@
         "@hot-loader/react-dom": "^16.9.0",
         "@reach/router": "^1.2.1",
         "color": "^3.1.2",
-        "lodash": "^4.17.13",
+        "lodash": "^4.17.21",
         "react": "^16.9.0",
         "react-dom": "^16.9.0",
         "react-hot-loader": "^4.12.5",
